@@ -16,3 +16,44 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+/* Header */
+#page-wrapper{
+    position: relative;
+}
+
+#header{
+    padding: 10px;
+    margin-bottom: 2rem;
+    position: fixed;
+    width: 80%;
+}
+
+div .logo{
+    float: left;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+div .logo h2{
+    display: inline-block;
+    overflow-y: -5px;
+}
+
+#nav-bar{
+    float: right;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#layanan{
+    padding-top: 100px;
+}
+
+
+
