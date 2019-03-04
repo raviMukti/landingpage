@@ -73,7 +73,28 @@ a {
 .desc h3{
     text-align: left;
     font-size: 2em;
+    margin-bottom: 0;
 }
 
+.desc p{
+    text-align: left;
+    margin-top: 0;
+    color: #ffff80;
+}
 
+.special{
+    color: #ffff80;
+}
 
+/* Testimoni */
+#testimoni{
+    max-width: 95%;
+    margin-top:50px;
+    background-color: #80ffff;
+    padding: 35px 0px 35px 0px;
+}
+
+#video{
+    width: 65%;
+    height: 475px;
+}
