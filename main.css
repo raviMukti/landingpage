@@ -1,181 +1,21 @@
 /* Global */
-body {
-    margin: auto;
-    padding: 0px 3% 0px 3%;
-    background-color: #3d9eee;
+body{
+    padding: 0;
+    margin: 0;
 }
-
-.container{
-    text-align: center;
-    max-width: 100%;
-    margin: auto;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* Header */
 
 #header{
-    width: 100%;
-    margin-bottom: 2rem;
-    position: fixed;
-    background-color: #3d9eee;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.logo{
-    float: left;
-    padding-left: 40px;
+#header-img{
+    width: 40px;
+    height: 40px;
 }
 
-img{
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-}
-.logo h2{
-    display: inline-block;
-    overflow-y: -5px;
-}
 
-#nav-bar{
-    float: right;
-    padding-right: 80px;
-}
 
-ul li{
-    list-style: none;
-    display: inline-block;
-}
 
-a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: #80ffff;
-    max-width: 25px;
-    border-radius: 5px;
-    border: 1px;
-}
 
-a:hover{
-    background-color: #ffff00;
-    color: #0000ff;
-}
 
-/* Layanan Section */
-#layanan{
-    padding-top: 100px;
-}
-
-.icon{
-    display: inline-block;
-    text-align: right;
-    padding-right: 95px;
-    padding-top: 20px;
-    
-}
-
-.desc h3{
-    text-align: left;
-    font-size: 2em;
-    margin-bottom: 0;
-}
-
-.desc p{
-    text-align: left;
-    margin-top: 0;
-    color: #ffff80;
-}
-
-.special{
-    color: #ffff80;
-}
-
-/* Testimoni */
-#testimoni{
-    max-width: 100%;
-    margin-top:50px;
-    margin-bottom: 0px;
-    background-color: #80ffff;
-    padding: 35px 0px 35px 0px;
-}
-
-#video{
-    width: 65%;
-    height: 475px;
-}
-
-/* Subscribe */
-#daftar{
-    max-width: 100%;
-    height: 140px;
-    padding: 40px 0;
-    overflow: hidden;
-    background-color: #3d9eee;
-}
-
-#langganan{
-    text-align: center;
-    font-size: 2em;
-    color: #fff;
-    margin-bottom:4px;
-}
-
-input[type="email"]{
-    max-width: 300px;
-    width: 100%;
-    padding: 5px;
-    border: none;
-}
-
-#submit{
-    padding: 5px;
-    background-color: #80ffff;
-    color: #8000ff;
-    border: none;
-}
-
-/* Harga */
-#harga{
-    display: grid;
-    justify-content: center;
-    grid-column-gap: 50px;
-    grid-template-columns: 280px 280px 280px;
-}
-
-.grid-harga{
-    background-color: #ffff00;
-    border-radius: 5px;
-    height: 320px;
-}
-
-.grid-harga h2{
-    padding-top: 25px;
-    color: #3d9eee;
-    font-size: 2em;
-}
-
-.grid-harga h3{
-    color: #3d9eee;
-    font-size: 3em;
-}
-
-#pilih-harga{
-    padding: 6px;
-    width: 70px;
-    border: none;
-    border-radius: 7px;
-    margin-bottom: 50px;
-}
-
-/* Footer */
-footer{
-    background-color: #80ffff;
-    max-width: 100%;
-    margin-top: 15%;
-    padding: 10px;
-    text-align: center;
-    color: #fff;
-}
