@@ -1,46 +1,216 @@
-/* Global */
-body{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
 }
 
 #header{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 50px;
-    flex-flow: column wrap;
-    position: fixed;
-    align-content: stretch;
     width: 100%;
-    background-color: #2cd3b1;
+    top: 0;
+    position: sticky;
+    background-color: #eee;
 }
 
 .logo{
+    display: flex;
     height: 50px;
-    width: 95px;
-    margin-left: 3%;
-}
-
-li{
-    display: inline;
-}
-
-li > a{
-    text-decoration: none;
-}
-
-#nav-bar{
-    align-self: flex-end;
-    margin-right: 10px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 #header-img{
-    max-height: 100%;
     max-width: 100%;
+    max-height: 100%;
+    margin-right: 5px;
+}
+
+#hero{
+    font-weight: 100;
+    font-size: 35px;
+    color: #00b7ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00b7ff;
+}
+
+#nav-bar{
+    padding-right: 50px;
+}
+
+#layanan{
+    text-align: center;
+    margin: 6.5rem 0;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.flex .icon{
+    color: #00b7ff;
+    flex: 1;
 }
 
 
+.desc{
+    flex: 1;
+    text-align: left;
+}
 
+.desc h3{
+    font-weight: 200;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
 
+.special{
+    color: #00b7ff;
+}
 
+.desc p{
+    color: #00b7ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
 
+#testimoni{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
 
+#video{
+    width: 925px;
+    height: 550px;
+    padding: 20px;
+}
+
+#daftar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+#langganan{
+    font-weight: 200;
+    font-size: 35px;
+    color: #00b7ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="email"]{
+    width: 60%;
+    line-height: 1.75rem;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#submit{
+    width: 60%;
+    line-height: 1.75rem;
+    padding: 3px;
+    color: #00b7ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#harga{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.grid-harga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 17%;
+    margin: 0 10px;
+    background-color: #116080;
+    border: none;
+    height: 275px;
+    border-radius: 10px;
+}
+
+.grid-harga h2{
+    color: #00b7ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.85rem;
+    margin-bottom: 25px;
+}
+
+.grid-harga h3{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+
+.pilih-harga{
+    width: 125px;
+    line-height: 1.75rem;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    background-color: #00b7ff;
+    padding: 15px;
+    color: #ffffff;
+}
+
+@media(max-width:756){
+    #header{
+        flex-direction: column;
+    }
+}
